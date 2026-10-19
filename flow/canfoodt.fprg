@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cnt"/>
+        <attribute name="authors" value="Com111"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2568-03-12 01:12:55 PM"/>
+        <attribute name="created" value="Q29tMTExO0RFU0tUT1AtQjhMSlRGQTsyNTY4LTAzLTEyOzEyOjI0OjU2IFBNOzI3OTk="/>
+        <attribute name="edited" value="Q29tMTExO0RFU0tUT1AtQjhMSlRGQTsyNTY4LTAzLTEyOzEyOjI0OjU4IFBNOzE7Q29tMTExO0RFU0tUT1AtQjhMSlRGQTsyNTY4LTAzLTEyOzEyOjA4OjUzIFBNO0hlbGxvIC4uLi5mcHJnOzY5NzI="/>
+        <attribute name="edited" value="Q29tMTExO0RFU0tUT1AtQjhMSlRGQTsyNTY4LTAzLTEyOzAxOjEyOjU1IFBNOzQ7MjkwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <declare name="e" type="Integer" array="False" size=""/>
+            <assign variable="r" expression="0"/>
+            <input variable="e"/>
+            <for variable="i" start="1" end="e" direction="inc" step="1">
+                <input variable="y"/>
+                <input variable="x"/>
+                <if expression="x&gt;=150&amp;&amp;x&lt;=200&amp;&amp;y&lt;=400">
+                    <then>
+                        <assign variable="r" expression="r + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="r" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

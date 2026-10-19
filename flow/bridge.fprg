@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bridge"/>
+        <attribute name="authors" value="KKK"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-08 03:09:16 PM"/>
+        <attribute name="created" value="S0tLO0RFU0tUT1AtQjZQOEFJVTsyNTY3LTEwLTA4OzAyOjU2OjI2IFBNOzI1ODE="/>
+        <attribute name="edited" value="S0tLO0RFU0tUT1AtQjZQOEFJVTsyNTY3LTEwLTA4OzAzOjA5OjE2IFBNOzE7MjY4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, p" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="p" expression="(a+b+c)"/>
+            <output expression="p" newline="True"/>
+            <if expression="p&lt;=100">
+                <then>
+                    <output expression="&quot;Ya&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Na&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cnt"/>
+        <attribute name="authors" value="Com111"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2568-03-12 12:45:04 PM"/>
+        <attribute name="created" value="Q29tMTExO0RFU0tUT1AtQjhMSlRGQTsyNTY4LTAzLTEyOzEyOjI0OjU2IFBNOzI3OTk="/>
+        <attribute name="edited" value="Q29tMTExO0RFU0tUT1AtQjhMSlRGQTsyNTY4LTAzLTEyOzEyOjI0OjU4IFBNOzE7Q29tMTExO0RFU0tUT1AtQjhMSlRGQTsyNTY4LTAzLTEyOzEyOjA4OjUzIFBNO0hlbGxvIC4uLi5mcHJnOzY5NzI="/>
+        <attribute name="edited" value="Q29tMTExO0RFU0tUT1AtQjhMSlRGQTsyNTY4LTAzLTEyOzEyOjQ1OjA0IFBNOzI7MjkwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <if expression="x&gt;=150&amp;&amp;x&lt;=200&amp;&amp;y&lt;400">
+                <then>
+                    <output expression="&quot;yasss&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Nahhhhhh&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

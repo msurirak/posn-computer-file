@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="rectangular"/>
+        <attribute name="authors" value="KKK"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-08 02:47:11 PM"/>
+        <attribute name="created" value="S0tLO0RFU0tUT1AtQjZQOEFJVTsyNTY3LTEwLTA4OzAxOjQ4OjA2IFBNOzI1Nzk="/>
+        <attribute name="edited" value="S0tLO0RFU0tUT1AtQjZQOEFJVTsyNTY3LTEwLTA4OzAyOjQ3OjExIFBNOzE7MjY4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, ar" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="ar" expression="a*b"/>
+            <output expression="ar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

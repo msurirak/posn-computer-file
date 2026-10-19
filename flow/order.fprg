@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="trinangle"/>
+        <attribute name="authors" value="KKK"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-15 03:41:29 PM"/>
+        <attribute name="created" value="S0tLO0RFU0tUT1AtQjZQOEFJVTsyNTY3LTEwLTE1OzAyOjUyOjM3IFBNOzI1Nzc="/>
+        <attribute name="edited" value="S0tLO0RFU0tUT1AtQjZQOEFJVTsyNTY3LTEwLTE1OzAzOjQxOjI4IFBNOzI7MjY4NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, q, w, e, r" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;b">
+                <then>
+                    <if expression="a&gt;c">
+                        <then>
+                            <output expression="&quot;a&quot;" newline="True"/>
+                            <assign variable="q" expression="a"/>
+                            <assign variable="w" expression="b"/>
+                            <assign variable="e" expression="c"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;c&quot;" newline="True"/>
+                            <assign variable="q" expression="c"/>
+                            <assign variable="w" expression="b"/>
+                            <assign variable="e" expression="a"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b&gt;c">
+                        <then>
+                            <output expression="&quot;b&quot;" newline="True"/>
+                            <assign variable="q" expression="b"/>
+                            <assign variable="w" expression="a"/>
+                            <assign variable="e" expression="c"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;c&quot;" newline="False"/>
+                            <assign variable="q" expression="c"/>
+                            <assign variable="w" expression="b"/>
+                            <assign variable="e" expression="a"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="q" newline="True"/>
+            <output expression="w" newline="True"/>
+            <output expression="e" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

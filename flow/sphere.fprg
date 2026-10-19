@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sphere"/>
+        <attribute name="authors" value="KKK"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-08 02:56:24 PM"/>
+        <attribute name="created" value="S0tLO0RFU0tUT1AtQjZQOEFJVTsyNTY3LTEwLTA4OzAyOjUwOjExIFBNOzI1Njk="/>
+        <attribute name="edited" value="S0tLO0RFU0tUT1AtQjZQOEFJVTsyNTY3LTEwLTA4OzAyOjU2OjI0IFBNOzE7MjY4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, v" type="Real" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="v" expression="4/3*3.14*r^3"/>
+            <output expression="v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
